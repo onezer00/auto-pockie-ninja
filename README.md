@@ -2,6 +2,8 @@
 
 [English](#english-section) | [Português](#portugues-section)
 
+---
+
 <div id="portuguese-content">
 
 <h2 id="portugues-section">AutoBot para Pockie Ninja</h2>
@@ -73,9 +75,11 @@ Contribuições são bem-vindas. Para grandes mudanças, abra uma issue primeiro
 ### Licença
 [MIT](https://opensource.org/license/mit)
 
+---
+
 </div>
 
-<div id="english-content" style="display:none;">
+<div id="english-content">
 <h2 id="english-section">AutoBot for Pockie Ninja</h2>
 
 <img src="assets/images/doc/initial.png">
@@ -140,19 +144,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [MIT](https://opensource.org/license/mit)
 
 </div>
-
-<script>
-  document.querySelectorAll('[href="#english-section"]').forEach(link => {
-    link.addEventListener('click', () => {
-      document.getElementById('portuguese-content').style.display = 'none';
-      document.getElementById('english-content').style.display = 'block';
-    });
-  });
-
-  document.querySelectorAll('[href="#português-section"]').forEach(link => {
-    link.addEventListener('click', () => {
-      document.getElementById('english-content').style.display = 'none';
-      document.getElementById('portuguese-content').style.display = 'block';
-    });
-  });
-</script>
